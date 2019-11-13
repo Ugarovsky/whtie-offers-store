@@ -43,9 +43,10 @@ export default class SomeProduct extends React.Component{
   <div>
 <Header />
 <div id="product-body">
+    
 <div id="some-product-template">
     <h1>{this.state.product.name}</h1>
-    <img src={this.state.product.imgSrc} width='30%' />
+    <img src={this.state.product.imgSrc} width='25%' />
     <p>{this.state.product.price}</p>
     <h2>{this.state.product.firstP}</h2>
     <p>{this.state.product.secondP}</p>

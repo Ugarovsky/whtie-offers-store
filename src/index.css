@@ -174,6 +174,7 @@ footer{
 .some-product button { 
   min-width: 70%;
   margin-left:15%;
+  border-radius: 2px;
   min-height: 40px;
   border:1px solid black;
   background: rgba(52, 214, 52, 0.473)
@@ -709,7 +710,8 @@ button:hover{
 #product-body{
   width: 100%;
   min-height: 100vh;
-  background: url('./img/prback.jpg');
+  background: url('./img/prback.jpg') 100% 100%;
+  background-repeat:no-repeat;
 }
 
 footer ul{
@@ -800,12 +802,49 @@ footer ul{
 }
 .header-pr{
   text-align: center;
-  width: 80%;
+  width: 60%;
   margin-top:10px;
-  margin-left:10%;
+  margin-left:20%;
   font-size: 30px;
  
 }
+
+.about-production{
+  width: 100%;
+  background: linear-gradient(rgba(231, 36, 36, 0.889), rgba(231, 36, 36, 0.6));;
+  padding: 20px 20%;
+  
+}
+
+
+.product-status{
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  background: black;
+}
+
+.about-content{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-content div{
+  flex:1;
+  margin:10px 20px;
+  min-width: 200px;
+}
+.about-content div h3{
+  font-style:italic;
+  text-align: center;
+}
+
+.about-content div p{
+  font-style:italic;
+  text-align: inherit;
+}
+
 
 .header-pr h2{ 
   text-decoration: underline;
@@ -815,6 +854,7 @@ footer ul{
   .some-product{
     min-width: 80%;
     margin: 15px 0;
+    position: relative;
   }
 
   #header-content{

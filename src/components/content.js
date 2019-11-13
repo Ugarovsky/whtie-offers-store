@@ -4,6 +4,7 @@ import '../index.css';
 import {pohudalka,oProducts} from '../data/jsonData.js'
 import Slider from './slider.js'
 import ProductList from './productList.js'
+import AboutProduction from './aboutProducts'
 export default class Content extends React.Component {
 
     constructor(props) {
@@ -26,10 +27,9 @@ export default class Content extends React.Component {
                 <div className="greyLabel"><p>{pohudalka.greyLabel}</p></div>
                 </div>
                 </div>
-            
-         
-              
-                <div className="header-pr"><h2 >nuestros productos</h2>
+                <AboutProduction />
+                <div className="header-pr">
+                    <h2 >nuestros productos</h2>
                 <ProductList offer={this.props.offer} />
                 <Slider />
             </div>
