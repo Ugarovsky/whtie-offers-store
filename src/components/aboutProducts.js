@@ -4,7 +4,7 @@ import '../index.css';
 export default function aboutProduction() {
     return (
         <div>
-        <h2>COSMÉTICA NATURAL Y SALUDABLE</h2>
+        <h2 className="about-pr">COSMÉTICA NATURAL Y SALUDABLE</h2>
         <div className="about-production"> 
                             <div className="about-content">
                             <div><h3>NATURAL</h3><p>Todos los productos Freshly contienen más del 99,0% de ingredientes naturales de alta calidad, con concentraciones excepcionales de activos naturales y ecológicos innovadores. Siempre siguiendo los más estrictos estándares de cosmética natural. No sólo es natural, es Freshly.</p></div>

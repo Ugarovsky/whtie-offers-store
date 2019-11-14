@@ -8,7 +8,7 @@ export default class Header extends React.Component {
                 <header>
                     <ul>
                         <li>
-                           <Link to='/home'> Página de inicio</Link>
+                           <Link to='/home'> <img src={"https://lympo.io/wp-content/themes/lympoio/images/huobi.png"}></img></Link>
           </li>
                         <li>
                         <Link to='/search'>Buscar</Link> 

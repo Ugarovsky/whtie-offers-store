@@ -29,7 +29,7 @@ export default class Content extends React.Component {
                 </div>
                 <AboutProduction />
                 <div className="header-pr">
-                    <h2 >nuestros productos</h2>
+                    <h2>nuestros productos</h2>
                 <ProductList offer={this.props.offer} />
                 <Slider />
             </div>

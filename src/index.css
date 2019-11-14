@@ -216,6 +216,10 @@ header a:hover {
   margin: 20px 40px;
 } 
 
+header img {
+  width:40px;
+}
+
 #feedbacks{
   display: flex;
   flex-wrap:wrap;
@@ -606,6 +610,11 @@ padding: 0 !important;
   margin-bottom:70px;
 }
 
+.about-pr{
+  font-style: italic;
+  text-decoration: underline;
+}
+
 header, footer{
   min-height: 65px;
   width: 100%;
@@ -617,7 +626,7 @@ header, footer{
 
 header li, footer li{
   font-size: 25px;
-  margin: auto 50px;
+  margin: auto 60px;
   list-style-type: none;
   display: inline;
 }
@@ -845,9 +854,14 @@ footer ul{
   text-align: inherit;
 }
 
+.some-product h2{
+  font-size:23px;
+}
 
 .header-pr h2{ 
+  font-size:32px;
   text-decoration: underline;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 600px){ 

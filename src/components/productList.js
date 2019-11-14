@@ -41,14 +41,19 @@ export default class ProuctList extends React.Component {
                 <img src={item.imgSrc} widht="100%" />
                 <p>{item.name}</p>
                 <h2>{item.price}</h2>
-                <Link to='/'><button>Pedir</button></Link>
+                <Link  onClick={() => {
+                  pickedProduct.imgSrc = item.imgSrc;
+                  pickedProduct.name = item.name;
+                  pickedProduct.firstP = item.firstP;
+                  pickedProduct.secondP = item.secondP;
+                  pickedProduct.thirdP = item.thirdP;
+                  pickedProduct.firstP = item.fourthP;
+                  pickedProduct.price = item.price;
+                }} to='/'><button>Pedir</button></Link>
             </div>
         })
         return ProuctList;
     }
-
-
-
 
     render() {
 
