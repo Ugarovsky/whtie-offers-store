@@ -30,11 +30,6 @@ export default class ProuctList extends React.Component {
         })
     }
 
-    pickTheProduct(item) {
-
-    }
-
-
     getProductList = (e) => {
         const ProuctList = this.state.products.filter(searchingFor(this.state.term)).map(function (item) {
             return <div className="some-product" key={item.id}>

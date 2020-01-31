@@ -3,10 +3,7 @@ import '../App.css';
 export default class Slider extends React.Component {
 
     componentDidMount() {
-    
-
-
-        var multiItemSlider = (function () {
+            var multiItemSlider = (function () {
             return function (selector, config) {
               var
                 _mainElement = document.querySelector(selector), // основный элемент блока
@@ -92,11 +89,7 @@ export default class Slider extends React.Component {
           var slider = multiItemSlider('.slider')        
     }
 
-
-
-
     render() {
-        const styleOne ='';
         return (       
             <div className="slider">
             <div className="slider__wrapper">
